@@ -1,0 +1,28 @@
+﻿@using GknProject.Core.Models
+
+@{
+    ViewData["Title"] = "Index";
+}
+@model List<TblAcentum>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>Acenta ID</td>
+            <td>Acenta Adi</td>
+            <td>Acenta Durum</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.StAcentaId</td>
+                <td>@item.StAcentaAdi</td>
+                <td>@item.StDurum</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

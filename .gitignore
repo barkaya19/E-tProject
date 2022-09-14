@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/GknProject/FileContentIndex/read.lock
+/.vs/GknProject/DesignTimeBuild
+/.vs/GknProject/FileContentIndex
